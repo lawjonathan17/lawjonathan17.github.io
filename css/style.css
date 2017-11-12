@@ -1,68 +1,111 @@
-*{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
+*{ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; box-sizing: border-box; }
 
-header{
-/*    position: fixed;*/
-}
-.my-name{
-    padding-left: 1em;
-}
+/* Center the header and nav items */
+header,nav { text-align: center; }
 
-h2{
-    text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-nav{
-    float: right;
-}
-nav ul{
-    list-style-type: none;
-}
+header{ padding-top: 1em; padding-bottom: 1em; }
 
-nav ul li{
-    display: inline-block;
-    padding: 1em;
-    font-size: 1em;
-}
+/* Slight grey background for the whole page */
+.top{ background-color: #f2f2f2  }
 
-nav ul li a{
-    color: black;
-    text-decoration: none;
-}
+body { background-color: white  }
 
-#nav-icons{
-    padding: 
-}
+/* Change font and font size of header */
+.my-name { font-family:serif; font-size: 3em; }
 
-.github-image, .linkedin-image, .mail-image{
-    max-height: 2em;
-}
+/* No bullets for nav items */
+nav ul { list-style-type: none; padding: 1em; }
 
+/* Makes list items display on the same line */
+nav ul li { display:inline-block; }
 
-.my-name{
-    font-family:serif;
-    font-size: 3em;
-}
+/* Removes highlight from underline on the list items */
+nav ul li a{ color: #0059b3; text-decoration: none; padding: 0.7em;}
 
-#introduction{
-    margin: 1em;
-    padding: 5em 0 2em;
-    font-size: 2em;
-    text-align: center;
-}
+/* Font size of nav items */
+.nav-text { font-size: 1em; }
 
-#selfie
-{
-    display: block; /* to center */
-    margin: auto;
-}
+/* Make the nav images small*/
+.github-image, .linkedin-image, .mail-image{ max-height: 2em; }
 
+/* Size of nav icons (GitHub, LinkedIn, Email) */
+.nav-icons { font-size: 1em;}
+
+/* Padding and white background */
+section { padding: 2em; background-color: white; }
+
+/* Spacing for the intro, larger font size and center the text */
+#introduction { padding: 1.6em; font-size: 2em; text-align: center; }
+
+#projects{ margin-top: 3em;}
+
+.pomodoro-img{ max-height: 30em; display: block; margin: auto;}
+
+/* Make the images as large as the display of the screen */
+.selfie, .webregplus-img, .garmin-img { width: 100%; }
+
+/* Style for header 2 of the sections */
+section h2 { text-align: center; font-size: 4em; color: #0059b3; text-decoration: underline; }
+
+/* Style for header 3 of the sections */
+section h3 { font-size: 3em; text-align: center; }
+
+/* Style for the footer text */
+.footer-text{ text-align: center; font-size: 0.5em; color: dimgrey; }
+
+/* For mobile */
 [class*="col-"] {
     width: 100%;
 }
+
+/* Media Queries */
+
+/* For tablets */
+@media only screen and (min-width: 600px ) {
+    .my-name{ font-size: 4em; }
+    .nav-text{ font-size: 1.3em; }
+    .nav-icons{ font-size: 1.2em; }
+    #introduction{ font-size: 2.2em; }
+    #experience{ padding-bottom: 0em; }
+}
+
+/* For tablets */
+@media only screen and (min-width: 690px ) {
+    #projects{ margin-top: 15em;}
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+/* For desktop */
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
+    .nav-text, .nav-icons { font-size: 1.5em; }
+    .projects-text{ padding-left: 3em; padding-right: 3em;}
+    section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
+    .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
+    .webregplus-img-one{ vertical-align: middle;}
+    .webregplus-img-two{ vertical-align: middle; margin-left: 3em;}
+    .webregplus-text{ padding: 5em;}
+    .garmin-text{ padding: 2em;}
+    #experience { padding-bottom: 18em;}
+    .footer-text{ padding-left: 0em;}
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
