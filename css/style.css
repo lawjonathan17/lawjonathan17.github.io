@@ -37,7 +37,7 @@ section { padding: 2em; background-color: white; }
 /* Spacing for the intro, larger font size and center the text */
 #introduction { padding: 1.6em; font-size: 2em; text-align: center; }
 
-#back-to-top-button{ max-width: 2em; position: fixed; right: 2%;}
+#back-to-top-button{ position: fixed; right: 2%; }
 
 #projects{ margin-top: 3em;}
 
