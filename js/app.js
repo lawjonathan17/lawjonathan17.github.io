@@ -1,6 +1,6 @@
 // Back to top button JS
-
-// When the user scrolls down 20px from the top of the document, show the button
+// Code referenced from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+// When the user scrolls down 100px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
