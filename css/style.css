@@ -1,4 +1,4 @@
-*{ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; box-sizing: border-box; }
+*{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
 /* Center the header and nav items */
 header,nav { text-align: center; }
@@ -11,7 +11,7 @@ header{ padding-top: 1em; padding-bottom: 1em; }
 body { background-color: white  }
 
 /* Change font and font size of header */
-.my-name { font-family:serif; font-size: 3em; }
+.my-name { font-family:"Lato"; font-size: 3em; }
 
 /* No bullets for nav items */
 nav ul { list-style-type: none; padding: 1em; }
