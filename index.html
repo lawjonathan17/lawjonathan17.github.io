@@ -14,28 +14,22 @@
 </head>
 
 <body>
-        <div class="top">
-            <header>
-                <p class="my-name">JONATHAN LAW</p>
-            </header>
-            <nav>
-                <div>
-                    <ul class="nav-text">
-                        <li class="nav-text-li"><a href="#about">about</a></li>
-                        <li class="nav-text-li"><a href="#projects">projects</a></li>       
-                        <li class="nav-text-li"><a href="#experience">experience</a></li>
-                        <li class="nav-text-li"><a href="JonathanLawResume.pdf" target="_blank">resume</a></li>
-                    </ul>
-                    <ul class="nav-icons">
-                        <li><a href="https://github.com/lawjonathan17" title="See Jonathan's projects on GitHub"><img class="github-image" src="images/github.png" ></a></li>
-                        <li><a href="https://www.linkedin.com/in/lawjonathan17/" title="Connect with Jonathan on LinkedIn"><img class="linkedin-image" src="images/linkedin.png"></a></li>
-                        <li><a href="mailto:lawjonathan17@gmail.com" title="Send Jonathan an Email"><img class="mail-image" src="images/mail.gif"></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav>
+            <ul class="nav-text">
+                <li class="nav-my-name">JONATHAN LAW</li>
+                <li class="nav-li-text"><a href="#about">about</a></li>
+                <li class="nav-li-text"><a href="#projects">projects</a></li>       
+                <li class="nav-li-text"><a href="#experience">experience</a></li>
+                <li class="nav-li-text"><a href="JonathanLawResume.pdf" target="_blank">resume</a></li>
+                <li class="nav-li-icon"><a href="mailto:lawjonathan17@gmail.com" title="Send Jonathan an Email"><img class="mail-image" src="images/mail.gif"></a></li>
+                <li class="nav-li-icon"><a href="https://www.linkedin.com/in/lawjonathan17/" title="Connect with Jonathan on LinkedIn"><img class="linkedin-image" src="images/linkedin.png"></a></li>
+                <li class="nav-li-icon"><a href="https://github.com/lawjonathan17" title="See Jonathan's projects on GitHub"><img class="github-image" src="images/github.png" ></a></li>
+            </ul>
+        </nav>
 
-        <section id="introduction">I love learning, problem solving, basketball and coffee</section>
+        <section id="introduction">
+            I love learning, problem solving, basketball and coffee
+        </section>
  
         <img onclick="topFunction()" id="back-to-top-button" title="Back to top" src="images/back-to-top-button.png" style="max-width: 2em;">
     
@@ -83,5 +77,11 @@
     
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-</body> 
+        <script>
+            var backgroundImages = [ "images/background-coffee.jpeg", "images/background-computer.jpeg", "images/background-basketball.jpeg" ];
+            
+            $( '#introduction' ).css( {'background' : 'url(' + backgroundImages[Math.floor( Math.random() * backgroundImages.length)] + ')', 'width' : '100%' } );
+            
+        </script>
+</body>
 </html>

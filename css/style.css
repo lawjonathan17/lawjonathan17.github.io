@@ -1,41 +1,34 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
-/* Center the header and nav items */
-header,nav { text-align: center; }
-
-header{ padding-top: 1em; padding-bottom: 1em; }
-
-/* Slight grey background for the whole page */
-.top{ background-color: #f2f2f2  }
-
-body { background-color: white  }
-
-/* Change font and font size of header */
-.my-name { font-family:"Lato"; font-size: 3em; }
+/* Make the nav bar's positions fixed. Solid white background. No gaps around top and left and right. */
+nav { position: fixed; width: 100%; background-color: white; top: 0; left: 0; right: 0; }
 
 /* No bullets for nav items */
 nav ul { list-style-type: none; padding: 1em; }
 
 /* Makes list items display on the same line */
-nav ul li { display:inline-block; }
+nav ul li { display:inline; }
 
 /* Removes highlight from underline on the list items */
-nav ul li a{ color: #0059b3; text-decoration: none; padding: 0.7em;}
+nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
 
-/* Font size of nav items */
-.nav-text { font-size: 1em; }
+/* Makes the links black when hovered with a mouse */
+nav ul li a:hover { color: black; }
+
+/* Change font and font size of header */
+.nav-my-name { font-family: "Lato"; color: black; }
 
 /* Make the nav images small*/
 .github-image, .linkedin-image, .mail-image{ max-height: 2em; }
 
-/* Size of nav icons (GitHub, LinkedIn, Email) */
-.nav-icons { font-size: 1em;}
+/* Whole page background color white */
+body { background-color: white; }
 
 /* Padding and white background */
-section { padding: 2em; background-color: white; }
+section { padding: 2em; }
 
 /* Spacing for the intro, larger font size and center the text */
-#introduction { padding: 1.6em; font-size: 2em; text-align: center; }
+#introduction { margin-top: 3em; padding: 1.6em; font-size: 2em; text-align: center; padding-top: 10em; padding-bottom: 6em; color: white;}
 
 #back-to-top-button{ position: fixed; right: 2%; }
 
@@ -94,7 +87,10 @@ section h3 { font-size: 3em; text-align: center; }
 
 /* For desktop */
 @media only screen and (min-width: 768px) {
-    .nav-text, .nav-icons { font-size: 1.5em; }
+    nav{ text-align: center; }
+    .nav-my-name{ font-size: 2em; float: left; }
+    .nav-li-text{ font-size: 1.3em; text-align: center; }
+    .nav-li-icon { font-size: 0.8em; float: right; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
