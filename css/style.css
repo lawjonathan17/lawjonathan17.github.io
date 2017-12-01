@@ -91,6 +91,7 @@ section h3 { font-size: 3em; text-align: center; }
     .nav-my-name{ font-size: 2em; float: left; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
+    section{ width: 70%; margin:auto; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
