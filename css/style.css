@@ -22,7 +22,7 @@ nav ul li a:hover { color: black; }
 .github-image, .linkedin-image, .mail-image{ max-height: 2em; }
 
 /* Whole page background color white */
-body { background-color: white; }
+body { font-family: "Karla"; background-color: white; margin: 0 }
 
 /* Padding and white background */
 section { padding: 2em; }
@@ -32,7 +32,7 @@ section { padding: 2em; }
 
 #back-to-top-button{ position: fixed; right: 2%; }
 
-#projects{ margin-top: 3em;}
+#projects{ margin-top: 3em; background-color: #f2f2f2; }
 
 .pomodoro-img{ max-height: 30em; display: block; margin: auto;}
 
@@ -40,10 +40,12 @@ section { padding: 2em; }
 .selfie, .webregplus-img, .garmin-img { width: 100%; }
 
 /* Style for header 2 of the sections */
-section h2 { text-align: center; font-size: 4em; color: #0059b3; text-decoration: underline; }
+section h2 { text-align: center; font-size: 3em; color: black; text-decoration: ; }
 
 /* Style for header 3 of the sections */
-section h3 { font-size: 3em; text-align: center; }
+section h3 { font-family: "Karla"; font-size: 2.2em; }
+
+section p { font-family: "Karla"; font-size: 1.2em; }
 
 /* Style for the footer text */
 .footer-text{ text-align: center; font-size: 0.5em; color: dimgrey; }
@@ -92,7 +94,8 @@ section h3 { font-size: 3em; text-align: center; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
     #introduction{ font-size: 2em; height: 3em; }
-    #projects, #about, #experience { width: 60%; margin:auto; }
+    #projects div { width: 60%; margin: auto; }
+    #about, #experience { width: 60%; margin:auto; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
