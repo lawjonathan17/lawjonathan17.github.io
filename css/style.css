@@ -28,7 +28,7 @@ body { background-color: white; }
 section { padding: 2em; }
 
 /* Spacing for the intro, larger font size and center the text */
-#introduction { margin-top: 3em; padding: 1.6em; font-size: 2em; text-align: center; padding-top: 10em; padding-bottom: 6em; color: white;}
+#introduction { margin-top: 3em; padding: 1.6em; font-size: 1.6em; text-align: center; padding-top:4em; padding-bottom: 5em; color: white; height: 1em; }
 
 #back-to-top-button{ position: fixed; right: 2%; }
 
@@ -60,7 +60,7 @@ section h3 { font-size: 3em; text-align: center; }
     .my-name{ font-size: 4em; }
     .nav-text{ font-size: 1.3em; }
     .nav-icons{ font-size: 1.2em; }
-    #introduction{ font-size: 2.2em; }
+    #introduction{ padding-top: 8em; padding-bottom: 4em; font-size: 1.8em; }
     #experience{ padding-bottom: 0em; }
 }
 
@@ -91,7 +91,8 @@ section h3 { font-size: 3em; text-align: center; }
     .nav-my-name{ font-size: 2em; float: left; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
-    section{ width: 70%; margin:auto; }
+    #introduction{ font-size: 2em; height: 3em; }
+    #projects, #about, #experience { width: 60%; margin:auto; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
@@ -117,4 +118,16 @@ section h3 { font-size: 3em; text-align: center; }
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1000px) {
+    #introduction{ font-size: 2.4em; padding-top: 8em; padding-bottom: 6em; height: 3em; }
+}
+
+@media only screen and (min-width: 1400px) {
+    #introduction{ padding-top: 11em; padding-bottom: 5em; height: 3em; }
+}
+
+@media only screen and (min-width: 2100px) {
+    #introduction{ padding-top: 14em; padding-bottom: 6em; height: 3em; }
 }
