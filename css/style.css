@@ -27,6 +27,7 @@ body { font-family: "Karla"; background-color: white; margin: 0 }
 /* Padding and white background */
 section { padding: 2em; }
 
+section a { color: black; text-decoration: none; }
 /* Spacing for the intro, larger font size and center the text */
 #introduction { margin-top: 3em; padding: 1.6em; font-size: 1.6em; text-align: center; padding-top:4em; padding-bottom: 5em; color: white; height: 1em; }
 
@@ -94,13 +95,14 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
     #introduction{ font-size: 2em; height: 3em; }
+    .selfie{ margin-top: 3em; }
     #projects div { width: 60%; margin: auto; }
     #about, #experience { width: 60%; margin:auto; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
-    .webregplus-img-one{ vertical-align: middle;}
-    .webregplus-img-two{ vertical-align: middle; margin-left: 3em;}
+    .webregplus-img-one{ vertical-align: middle; margin-left: 10em; }
+    .webregplus-img-two{ vertical-align: middle; margin-left: 10em; }
     .webregplus-text{ padding: 5em;}
     .garmin-text{ padding: 2em;}
     #experience { padding-bottom: 18em;}
