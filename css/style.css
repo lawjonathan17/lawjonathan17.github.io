@@ -18,6 +18,7 @@ nav ul li a:hover { color: black; }
 /* Change font and font size of header */
 .nav-my-name { font-family: "Lato"; color: black; }
 
+#about{ padding-top: 10em; }
 /* Make the nav images small*/
 .github-image, .linkedin-image, .mail-image{ max-height: 2em; }
 
@@ -28,8 +29,6 @@ body { font-family: "Karla"; background-color: white; margin: 0 }
 section { padding: 2em; }
 
 section a { color: black; text-decoration: none; }
-/* Spacing for the intro, larger font size and center the text */
-#introduction { margin-top: 3em; padding: 1.6em; font-size: 1.6em; text-align: center; padding-top:4em; padding-bottom: 5em; color: white; height: 1em; }
 
 #back-to-top-button{ position: fixed; right: 2%; }
 
@@ -41,7 +40,7 @@ section a { color: black; text-decoration: none; }
 .selfie, .webregplus-img, .garmin-img { width: 100%; }
 
 /* Style for header 2 of the sections */
-section h2 { text-align: center; font-size: 3em; color: black; text-decoration: ; }
+section h2 { text-align: center; font-size: 3em; color: black; }
 
 /* Style for header 3 of the sections */
 section h3 { font-family: "Karla"; font-size: 2.2em; }
@@ -63,7 +62,6 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .my-name{ font-size: 4em; }
     .nav-text{ font-size: 1.3em; }
     .nav-icons{ font-size: 1.2em; }
-    #introduction{ padding-top: 8em; padding-bottom: 4em; font-size: 1.8em; }
     #experience{ padding-bottom: 0em; }
 }
 
@@ -94,7 +92,6 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-my-name{ font-size: 2em; float: left; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
-    #introduction{ font-size: 2em; height: 3em; }
     .selfie{ margin-top: 3em; }
     #projects div { width: 60%; margin: auto; }
     #about, #experience { width: 60%; margin:auto; }
@@ -123,16 +120,4 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 1000px) {
-    #introduction{ font-size: 2.4em; padding-top: 8em; padding-bottom: 6em; height: 3em; }
-}
-
-@media only screen and (min-width: 1400px) {
-    #introduction{ padding-top: 11em; padding-bottom: 5em; height: 3em; }
-}
-
-@media only screen and (min-width: 2100px) {
-    #introduction{ padding-top: 14em; padding-bottom: 6em; height: 3em; }
 }
