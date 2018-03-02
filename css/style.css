@@ -94,12 +94,11 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
     .selfie{ margin-top: 3em; }
     #projects div { width: 60%; margin: auto; }
-    #about, #experience { width: 60%; margin:auto; }
+    #about, #experience, #skills{ width: 60%; margin:auto; }
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
-    .webregplus-img-one{ vertical-align: middle; margin-left: 10em; }
-    .webregplus-img-two{ vertical-align: middle; margin-left: 10em; }
+    .webregplus-img-one,.webregplus-img-two { vertical-align: middle; margin-left: 10em; }
     .webregplus-text{ padding: 5em;}
     .garmin-text{ padding: 2em;}
     #experience { padding-bottom: 18em;}
