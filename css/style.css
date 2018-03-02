@@ -1,6 +1,6 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
-#about{ padding-top: 10em; display }
+#about{ padding-top: 10em; }
 
 .about-text{ font-size: 1.2em; }
 
@@ -45,7 +45,6 @@ section h3 { font-family: "Karla"; font-size: 2.2em; }
 
 section p { font-family: "Karla"; font-size: 1.2em; }
 
-
 /* For mobile */
 [class*="col-"] {
     width: 100%;
@@ -84,7 +83,8 @@ section p { font-family: "Karla"; font-size: 1.2em; }
 
 /* For desktop */
 @media only screen and (min-width: 768px) {
-    #about, #experience, #skills{ width: 60%; margin:auto; }
+    #about { width: 60%; margin: auto }
+    #experience, #skills{ width: 60%; margin:auto; }
     #experience { padding-bottom: 18em;}
     .garmin-text{ padding: 2em;}
     nav{ text-align: center; }
@@ -92,7 +92,7 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
      #projects div { width: 60%; margin: auto; }
-    .selfie{ margin-top: 3em; }
+    .selfie{ margin-top: 3em; margin: auto}
     .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
