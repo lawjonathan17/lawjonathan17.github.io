@@ -2,6 +2,8 @@
 
 #about{ padding-top: 10em; display }
 
+.about-text{ font-size: 1.2em; }
+
 /* Whole page background color white */
 body { font-family: "Karla"; background-color: white; margin: 0 }
 
@@ -42,9 +44,6 @@ section h2 { text-align: center; font-size: 3em; color: black; }
 section h3 { font-family: "Karla"; font-size: 2.2em; }
 
 section p { font-family: "Karla"; font-size: 1.2em; }
-
-/* Make the images as large as the display of the screen */
-.selfie, .webregplus-img, .garmin-img { width: 100%; }
 
 
 /* For mobile */
