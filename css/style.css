@@ -1,7 +1,18 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
+#about{ padding-top: 10em; display }
+
+/* Whole page background color white */
+body { font-family: "Karla"; background-color: white; margin: 0 }
+
+/* Make the nav images small*/
+.github-image, .linkedin-image, .mail-image{ max-height: 2em; }
+
 /* Make the nav bar's positions fixed. Solid white background. No gaps around top and left and right. */
 nav { position: fixed; width: 100%; background-color: white; top: 0; left: 0; right: 0; }
+
+/* Change font and font size of header */
+.nav-my-name { font-family: "Lato"; color: black; }
 
 /* No bullets for nav items */
 nav ul { list-style-type: none; padding: 1em; }
@@ -15,29 +26,14 @@ nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
 /* Makes the links black when hovered with a mouse */
 nav ul li a:hover { color: black; }
 
-/* Change font and font size of header */
-.nav-my-name { font-family: "Lato"; color: black; }
+.pomodoro-img{ max-height: 30em; display: block; margin: auto;}
 
-#about{ padding-top: 10em; }
-/* Make the nav images small*/
-.github-image, .linkedin-image, .mail-image{ max-height: 2em; }
-
-/* Whole page background color white */
-body { font-family: "Karla"; background-color: white; margin: 0 }
+#projects{ margin-top: 3em; background-color: #f2f2f2; }
 
 /* Padding and white background */
 section { padding: 2em; }
 
 section a { color: black; text-decoration: none; }
-
-#back-to-top-button{ position: fixed; right: 2%; }
-
-#projects{ margin-top: 3em; background-color: #f2f2f2; }
-
-.pomodoro-img{ max-height: 30em; display: block; margin: auto;}
-
-/* Make the images as large as the display of the screen */
-.selfie, .webregplus-img, .garmin-img { width: 100%; }
 
 /* Style for header 2 of the sections */
 section h2 { text-align: center; font-size: 3em; color: black; }
@@ -47,8 +43,9 @@ section h3 { font-family: "Karla"; font-size: 2.2em; }
 
 section p { font-family: "Karla"; font-size: 1.2em; }
 
-/* Style for the footer text */
-.footer-text{ text-align: center; font-size: 0.5em; color: dimgrey; }
+/* Make the images as large as the display of the screen */
+.selfie, .webregplus-img, .garmin-img { width: 100%; }
+
 
 /* For mobile */
 [class*="col-"] {
@@ -59,10 +56,10 @@ section p { font-family: "Karla"; font-size: 1.2em; }
 
 /* For tablets */
 @media only screen and (min-width: 600px ) {
+     #experience{ padding-bottom: 0em; }
     .my-name{ font-size: 4em; }
     .nav-text{ font-size: 1.3em; }
     .nav-icons{ font-size: 1.2em; }
-    #experience{ padding-bottom: 0em; }
 }
 
 /* For tablets */
@@ -88,21 +85,20 @@ section p { font-family: "Karla"; font-size: 1.2em; }
 
 /* For desktop */
 @media only screen and (min-width: 768px) {
+    #about, #experience, #skills{ width: 60%; margin:auto; }
+    #experience { padding-bottom: 18em;}
+    .garmin-text{ padding: 2em;}
     nav{ text-align: center; }
     .nav-my-name{ font-size: 2em; float: left; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
+     #projects div { width: 60%; margin: auto; }
     .selfie{ margin-top: 3em; }
-    #projects div { width: 60%; margin: auto; }
-    #about, #experience, #skills{ width: 60%; margin:auto; }
+    .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
-    .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
     .webregplus-img-one,.webregplus-img-two { vertical-align: middle; margin-left: 10em; }
     .webregplus-text{ padding: 5em;}
-    .garmin-text{ padding: 2em;}
-    #experience { padding-bottom: 18em;}
-    .footer-text{ padding-left: 0em;}
 }
 
 /* For desktop: */
