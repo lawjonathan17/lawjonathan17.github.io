@@ -24,8 +24,6 @@ nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
 /* Makes the links black when hovered with a mouse */
 nav ul li a:hover { color: black; }
 
-.pomodoro-img{ max-height: 30em; display: block; margin: auto;}
-
 #projects{ margin-top: 3em; background-color: #f2f2f2; }
 
 /* Padding and white background */
@@ -88,7 +86,6 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
      #projects div { width: 60%; margin: auto; }
     .selfie{ margin-top: 3em; margin: auto}
-    .pomodoro-text{ padding-top: 5em; padding-bottom: 5em; padding-left: 10em; padding-right: 10em;}
     .projects-text{ padding-left: 3em; padding-right: 3em;}
     section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
     .webregplus-img-one,.webregplus-img-two { vertical-align: middle; margin-left: 10em; }
