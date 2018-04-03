@@ -1,9 +1,5 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
-#about{ padding-top: 10em; }
-
-.about-text{ font-size: 1.2em; }
-
 /* Whole page background color white */
 body { font-family: "Karla"; background-color: white; margin: 0 }
 
@@ -83,7 +79,6 @@ section p { font-family: "Karla"; font-size: 1.2em; }
 
 /* For desktop */
 @media only screen and (min-width: 768px) {
-    #about { width: 60%; margin: auto }
     #experience, #skills{ width: 60%; margin:auto; }
     #experience { padding-bottom: 18em;}
     .garmin-text{ padding: 2em;}
