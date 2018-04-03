@@ -24,8 +24,6 @@ nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
 /* Makes the links black when hovered with a mouse */
 nav ul li a:hover { color: black; }
 
-#projects{ margin-top: 3em; background-color: #f2f2f2; }
-
 /* Padding and white background */
 section { padding: 2em; }
 
@@ -38,6 +36,8 @@ section h2 { text-align: center; font-size: 3em; color: black; }
 section h3 { font-family: "Karla"; font-size: 2.2em; }
 
 section p { font-family: "Karla"; font-size: 1.2em; }
+
+.center { display: block; margin: auto; }
 
 /* For mobile */
 [class*="col-"] {
@@ -84,12 +84,8 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .nav-my-name{ font-size: 2em; float: left; }
     .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
     .nav-li-icon { font-size: 0.8em; float: right; }
-     #projects div { width: 60%; margin: auto; }
-    .selfie{ margin-top: 3em; margin: auto}
-    .projects-text{ padding-left: 3em; padding-right: 3em;}
-    section div p{ float: right; padding-top: 1em; font-size: 1.2em;}
-    .webregplus-img-one,.webregplus-img-two { vertical-align: middle; margin-left: 10em; }
-    .webregplus-text{ padding: 5em;}
+     #projects { width: 60%; margin: auto; }
+    .webregplus-text{ padding: 3em; }
 }
 
 /* For desktop: */
