@@ -1,7 +1,7 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
 /* Whole page background color white */
-body { font-family: "Karla"; background-color: white; margin: 0 }
+body { font-family: "Karla"; background-color: white; margin: 6em 0 0 0; }
 
 /* Make the nav images small*/
 .github-image, .linkedin-image, .mail-image{ max-height: 2em; }
