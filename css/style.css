@@ -24,6 +24,8 @@ nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
 /* Makes the links black when hovered with a mouse */
 nav ul li a:hover { color: black; }
 
+.blue-hover:hover { color: #4286f4; }
+
 /* Padding and white background */
 section { padding: 2em; }
 
@@ -33,7 +35,7 @@ section a { color: black; text-decoration: none; }
 section h2 { text-align: center; font-size: 3em; color: black; }
 
 /* Style for header 3 of the sections */
-section h3 { font-family: "Karla"; font-size: 2.2em; }
+section h3 { text-align: center; font-family: "Karla"; font-size: 2.2em; }
 
 section p { font-family: "Karla"; font-size: 1.2em; }
 
