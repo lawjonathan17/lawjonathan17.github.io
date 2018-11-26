@@ -1,30 +1,68 @@
 *{ font-family: "Libre Franklin", "Open Sans"; box-sizing: border-box; }
 
+#about{ padding: 2em; height: 100%; width: 50%; position: fixed; float: left; top: 20%;  }
+
+#about h1{ font-family: "Montserrat"; font-size: 36pt; }
+
+.about-name{ display: inline-block; margin: 40px; vertical-align: middle; }
+
+.about-heading{ padding: 10px; }
+
+.about-text{ text-align: justify; text-justify: inter-word; width: 90%; padding: 30px; }
+
+.accomplishments{ float: right; height: 100%; width: 50%; }
+
+.blue-hover:hover { color: #4286f4; }
+
 /* Whole page background color white */
-body { font-family: "Karla"; background-color: white; margin: 6em 0 0 0; }
+body { font-family: "Karla"; background-color: white; }
+
+.circle{ border-radius: 50%; vertical-align: middle; }
+
+.fbw-heading{ display: inline-block; width: 100%; }
+
+.fbw-logo{ height: 80px; float: left; }
+
+/*.fbw-title{ width: 50%; }*/
+
+.garmin-logo{ width: 20%; }
 
 /* Make the nav images small*/
-.github-image, .linkedin-image, .mail-image{ max-height: 2em; }
+.github-image, .linkedin-image, .mail-image{ max-height: 1.5em; }
+
+#layout-container{ height: 100%; width:100%; }
 
 /* Make the nav bar's positions fixed. Solid white background. No gaps around top and left and right. */
 nav { position: fixed; width: 100%; background-color: white; top: 0; left: 0; right: 0; }
 
 /* Change font and font size of header */
-.nav-my-name { font-family: "Lato"; color: black; }
+.nav-my-name { font-family: "Lato"; color: black; font-size: 15px; }
+
+.li-icons{ float: right; }
+
+.content-box{ height: 100%; width: 100%; box-shadow: 3px 3px 7px #676767; color: #4b4b4b; padding: 40px; }
+
+.content-container{ padding: 50px; }
+
+.uci-logo{ height: 150px; }
+
+.uci-logo-div{ width:30%; float:left; }
+
+.uci-text-div{ width: 70%; float: }
 
 /* No bullets for nav items */
-nav ul { list-style-type: none; padding: 1em; }
+#about ul { list-style-type: none; margin-right: 370px; }
 
 /* Makes list items display on the same line */
-nav ul li { display:inline; }
+/*ul li { display:inline; }*/
 
-/* Removes highlight from underline on the list items */
-nav ul li a{ color: #bfbfbf; text-decoration: none; padding: 0.7em;}
+/* Icons for github, mail, LinkedIn */
+#about ul li a{ padding: 0.7em;}
 
 /* Makes the links black when hovered with a mouse */
 .nav-li-text:hover { color: black; }
 
-.blue-hover:hover { color: #4286f4; }
+.profile-img{ width: 20%; display: inline-block; }
 
 /* Padding and white background */
 section { padding: 2em; }
@@ -46,9 +84,10 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     width: 100%;
 }
 
-/*
-    Slideshow
-*/
+
+/* ---------------------------------------------------------------
+                            Slideshow
+------------------------------------------------------------------ */
 
 /* Slideshow container */
 .slideshow-container { max-width: 1000px; position: relative; margin: auto; }
@@ -128,8 +167,8 @@ section p { font-family: "Karla"; font-size: 1.2em; }
     .garmin-text{ padding: 2em;}
     nav{ text-align: center; }
     .nav-my-name{ font-size: 2em; float: left; }
-    .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }
-    .nav-li-icon { font-size: 0.8em; float: right; }
+/*    .nav-li-text{ font-size: 1em; text-align: center; padding: 0.4em; }*/
+/*    .nav-li-icon { font-size: 0.8em; float: right; }*/
      #projects { width: 60%; margin: auto; }
 }
 
